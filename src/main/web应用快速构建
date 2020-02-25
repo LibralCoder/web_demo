@@ -1,0 +1,14 @@
+1.构建一个无骨架maven
+2.在模块结构里添加web应用 1）改变打包方式为war
+                      2）删除并重新添加src\main\webapp\web.xml
+3.加入依赖spring-context spring-web aop
+     spring-webmvc  fastjson                      
+4.在resources里加入配置文件     
+  
+
+
+
+tip：
+只有java和resources目录下的文件才参与maven编译
+webapp是不参与maven编译的，
+这也就是创建无骨架maven项目是不会有webapp的因为它可能只是单纯的普通应用
