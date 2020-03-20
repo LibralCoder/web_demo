@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2020/2/25 14:14
  **/
 @RestController
-@RequestMapping("/hello")
 public class HelloController {
     @RequestMapping("/say.do")
     public Apple say() throws InterruptedException {
